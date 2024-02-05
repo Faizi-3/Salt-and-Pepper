@@ -1,0 +1,952 @@
+@font-face {
+    font-family: "futurak";
+    src: url(Fonts/futurak.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+#pack {
+    color: #ED1C24;
+    font-size: 12px;
+}
+
+#snp {
+    font-family: "futurak";
+}
+
+#location {
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+}
+
+#phone {
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+}
+
+#snpopen {
+    font-family: "futurak";
+    font-size: 25px;
+}
+
+#openingsoon {
+    color: #ED1C24;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.page {
+    background-color: #000;
+    width: 100%;
+    /* padding-top: 8px; */
+}
+
+.header {
+    background-color: #000;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.logo {
+    width: 20%;
+    padding-left: 60px;
+    padding-bottom: 5px;
+}
+
+.right-side {
+    color: #fff;
+    width: 70%;
+    text-align: right;
+}
+
+.logo,
+.right-side {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu>li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 17px;
+    font-family: calibri;
+}
+
+.btns>button {
+    border: none;
+    padding: 20px 15px;
+    color: #fff;
+    border-radius: 35px;
+    margin-left: 10px;
+}
+
+.btn-1 {
+    background-color: transparent;
+    border: 1px #fff solid !important;
+    padding: 18px !important;
+    font-size: 14px;
+    margin-bottom: 10px !important;
+}
+
+.btn-2 {
+    background-color: red;
+    font-size: 14px;
+    padding: 10px 15px !important;
+}
+
+.btn-2>i {
+    background-color: #fff;
+    color: red;
+    padding: 9px;
+    border-radius: 100%;
+}
+
+.menu,
+.btns {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner>img {
+    width: 100%;
+    border: none;
+}
+
+.welcome {
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+}
+
+.welcomenote {
+    color: #fff;
+    width: 60%;
+    text-align: center;
+    background-color: #000;
+    margin-left: 250px;
+    font-family: calibri;
+}
+
+.welcomenote>.p2 {
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+    margin-top: -30px;
+}
+
+.welcomenote>p>span {
+    font-family: "futurak";
+}
+
+.orderbox {
+    display: flex;
+    padding-left: 118px;
+    padding-right: 150px;
+    margin-bottom: 150px;
+}
+
+.box1 {
+    margin-left: 100px;
+}
+
+.orderbox>.box1>.boxlogo1 {
+    background-color: #fff;
+    display: inline-block;
+    padding: 25px 19px;
+    border-radius: 3px;
+}
+
+.boxlogo1>img {
+    width: 212px;
+}
+
+.orderbox>.box1>.box1btn>button {
+    color: #fff;
+    background-color: transparent;
+    width: 174px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255, 0.3);
+    height: 50px;
+    margin-top: 24px;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.box2 {
+    margin-left: 30px;
+}
+
+.orderbox>.box2>.boxlogo2 {
+    background-color: #fff;
+    display: inline-block;
+    padding: 25px 19px;
+    border-radius: 3px;
+}
+
+.boxlogo2>img {
+    width: 212px;
+}
+
+.orderbox>.box2>.box2btn {
+    margin-left: 30px;
+}
+
+.orderbox>.box2>.box2btn>button {
+    color: #fff;
+    background-color: transparent;
+    width: 174px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255, 0.3);
+    height: 50px;
+    margin-top: 24px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.box3 {
+    margin-left: 30px;
+}
+
+.orderbox>.box3>.boxlogo3 {
+    background-color: #fff;
+    /* width: 100%; */
+    display: inline-block;
+    padding: 25px 19px;
+    /* margin-left: 30px; */
+    border-radius: 3px;
+}
+
+.boxlogo3>img {
+    width: 212px;
+}
+
+.orderbox>.box3>.box3btn {
+    margin-left: 30px;
+    /* width: 298px; */
+}
+
+.orderbox>.box3>.box3btn>button {
+    color: #fff;
+    background-color: transparent;
+    width: 174px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255, 0.3);
+    height: 50px;
+    margin-top: 24px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.body {
+    background-color: rgb(255, 255, 255, 0.06) !important;
+    width: 100%;
+    height: 1300px;
+    /* background-image: url(https://images-beta.tossdown.com/site/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp);
+    background-repeat: no-repeat; */
+}
+
+.body {
+    background-image: url(Images/S\ logo.webp);
+    background-repeat: no-repeat;
+    background-position: 905px 30px;
+}
+
+.franchise {
+    margin: 50px;
+    background-color: transparent;
+}
+
+.hfranchise>p {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.snp1 {
+    font-family: "futurak";
+}
+
+.snp2 {
+    font-size: 16px;
+    color: rgb(255, 255, 255, 0.7);
+    letter-spacing: 0.5px;
+    position: relative;
+    top: -25px;
+    margin-bottom: 10px;
+}
+
+/* Islamabad Franchise Styling */
+
+.isbcolm {
+    color: #fff;
+    margin-top: -35px;
+    width: fit-content;
+}
+
+.isbcont {
+    background-color: transparent;
+    width: 500px;
+    margin-left: 80px;
+    display: inline-block;
+
+}
+
+.islamabad {
+    color: #ED1C24;
+    font-size: 16px;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.islamabadsnp {
+    font-size: 32px;
+}
+
+.islamabadsnp>span {
+    color: #fff;
+    font-family: "futurak";
+}
+
+.isbaddress {
+    font-size: 16px;
+    color: rgb(183, 183, 183);
+    margin-bottom: 15px;
+    margin-top: 24px;
+}
+
+.isbphone {
+    font-size: 16px;
+    color: rgb(183, 183, 183);
+}
+
+.isbcolmimg {
+    background-color: transparent;
+    /* width: fit-content;
+    height: 2px; */
+    position: relative;
+    float: right;
+    right: -80px;
+    /* top: -270px; */
+}
+
+.isbcolmimg>img {
+    height: 270px;
+}
+
+/* Faisalabad Franchise Styling */
+
+.fsdcolm {
+    color: #fff;
+    margin-top: 100px;
+    /* width: fit-content; */
+    display: flex;
+    /* float: right; */
+}
+
+.fsdcont {
+    background-color: transparent;
+    width: 500px;
+    margin-left: 80px;
+    position: relative;
+    float: right;
+    /* right: -580px; */
+}
+
+.faisalabad {
+    color: #ED1C24;
+    font-size: 16px;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.faisalabadsnp {
+    font-size: 32px;
+}
+
+.faisalabadsnp>span {
+    color: #fff;
+    font-family: "futurak";
+}
+
+.fsdaddress {
+    font-size: 16px;
+    color: rgb(183, 183, 183);
+    margin-bottom: 15px;
+    margin-top: 24px;
+}
+
+.fsdphone {
+    font-size: 16px;
+    color: rgb(183, 183, 183);
+}
+
+.fsdcolmimg {
+    background-color: transparent;
+    /* position: relative;
+    float: right;
+    right: 80px; */
+    height: 2px;
+
+}
+
+.fsdcolmimg>img {
+    height: 270px;
+    margin-left: 80px;
+    width: 495px;
+}
+
+/* Bahawalphur Franchise Styling */
+
+.bhlcolm {
+    color: #fff;
+    margin-top: 100px;
+    width: fit-content;
+    /* margin-bottom: 70px; */
+}
+
+.bhlcont {
+    background-color: transparent;
+    width: 500px;
+    margin-left: 80px;
+    display: inline-block;
+
+}
+
+.bahawalpur {
+    color: #ED1C24;
+    font-size: 16px;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.bahawalpursnp {
+    font-size: 32px;
+}
+
+.bahawalpursnp>span {
+    color: #fff;
+    font-family: "futurak";
+}
+
+.bhladdress {
+    font-size: 16px;
+    color: rgb(183, 183, 183);
+    margin-bottom: 15px;
+    margin-top: 24px;
+}
+
+.bhlphone {
+    font-size: 16px;
+    color: rgb(183, 183, 183);
+}
+
+.bhlcolmimg {
+    background-color: transparent;
+    /* width: fit-content;
+    height: 2px; */
+    position: relative;
+    float: right;
+    right: -80px;
+    /* top: -270px; */
+}
+
+.bhlcolmimg>img {
+    height: 270px;
+}
+
+/* 2nd Franchise Section */
+
+.franchisesecond {
+    width: 100%;
+    height: 1800px;
+    background-color: #000;
+    background-image: url(/Images/P\ Logo.webp);
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    background-position-y: 40px;
+}
+
+.expressfranchise {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    border: 0px;
+    padding-top: 30px;
+}
+
+.expressfranchise>p>span {
+    font-family: "futurak";
+}
+
+/* 1st Row */
+
+.franchiseallone {
+    display: flex;
+}
+
+
+/* 1st Card */
+
+.onenone {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 75px;
+}
+
+.onenone>img {
+    width: 350px;
+    height: 250px;
+}
+
+.onenone>p {
+    color: #fff;
+}
+
+.btnfr {
+    background-color: red;
+    font-size: 14px;
+    padding: 10px 22px !important;
+}
+
+.btnfr>i {
+    background-color: #fff;
+    color: red;
+    padding: 9px;
+    border-radius: 100%;
+}
+
+
+/* 2nd Card */
+
+.onetwo {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.onetwo>img {
+    width: 350px;
+    height: 250px;
+}
+
+.onetwo>p {
+    color: #fff;
+}
+
+/* 3rd Card */
+
+.onethree {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.onethree>img {
+    width: 350px;
+    height: 250px;
+}
+
+.onethree>p {
+    color: #fff;
+}
+
+
+/* 2nd Row */
+
+/* 1st Card */
+
+.twonone {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 75px;
+}
+
+.twonone>img {
+    width: 350px;
+    height: 250px;
+}
+
+.twonone>p {
+    color: #fff;
+}
+
+.btnfr {
+    background-color: red;
+    font-size: 14px;
+    padding: 10px 22px !important;
+}
+
+.btnfr>i {
+    background-color: #fff;
+    color: red;
+    padding: 9px;
+    border-radius: 100%;
+}
+
+
+/* 2nd Card */
+
+.twotwo {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.twotwo>img {
+    width: 350px;
+    height: 250px;
+}
+
+.twotwo>p {
+    color: #fff;
+}
+
+/* 3rd Card */
+
+.twothree {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.twothree>img {
+    width: 350px;
+    height: 250px;
+}
+
+.twothree>p {
+    color: #fff;
+}
+
+
+/* 3rd Row */
+
+/* 1st Card */
+
+.threenone {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 75px;
+}
+
+.threenone>img {
+    width: 350px;
+    height: 250px;
+}
+
+.threenone>p {
+    color: #fff;
+}
+
+.btnfr {
+    background-color: red;
+    font-size: 14px;
+    padding: 10px 22px !important;
+}
+
+.btnfr>i {
+    background-color: #fff;
+    color: red;
+    padding: 9px;
+    border-radius: 100%;
+}
+
+
+/* 2nd Card */
+
+.threetwo {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.threetwo>img {
+    width: 350px;
+    height: 250px;
+}
+
+.threetwo>p {
+    color: #fff;
+}
+
+/* 3rd Card */
+
+.threethree {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.threethree>img {
+    width: 350px;
+    height: 250px;
+}
+
+.threethree>p {
+    color: #fff;
+}
+
+.franchisevillage {
+    background-color: #0f0f0f;
+    height: 610px;
+}
+
+.villageimg>img {
+    height: 364px;
+    width: 626px;
+}
+
+.villcont {
+    background-color: transparent;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 70px;
+    position: relative;
+    float: right;
+    /* right: -580px; */
+}
+
+.villcolm {
+    color: #fff;
+    margin-top: 40px;
+    /* width: fit-content; */
+    display: flex;
+    /* float: right; */
+}
+
+.villcolmimg {
+    background-color: transparent;
+    /* position: relative;
+    float: right;
+    right: 80px; */
+    height: 2px;
+
+}
+
+.villcolmimg>img {
+    height: 270px;
+    margin-left: 80px;
+    width: 495px;
+}
+
+.franchiseopencont {
+    height: 1500px;
+    background-color: #000;
+}
+
+.franchiseopen {
+    background-color: #000;
+}
+
+.franchiseopen {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    border: 0px;
+    padding-top: 30px;
+}
+
+.opens {
+    font-size: 26px;
+}
+
+                                        /* Open Card Rows */
+
+.cardopenr1 {
+    display: flex;
+}
+
+/* Open Card 01 */
+
+.r1c1 {
+    height: 250px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 47px;
+}
+
+.r1c1>p>img {
+    margin-top: 30px;
+}
+
+/* open Card 02 */
+
+.r1c2 {
+    height: 250px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.r1c2>p>img {
+    margin-top: 30px;
+}
+
+/* open Card 03 */
+
+.r1c3 {
+    height: 250px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.r1c3>p>img {
+    margin-top: 30px;
+}
+
+            /* Row 2 */
+
+.cardopenr2 {
+    display: flex;
+    padding-top: 40px;
+}
+
+.feed {
+    margin-top: 65px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.feedcard {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+        /* Information Footer */
+
+.bio {
+    background-color: #0f0f0f;
+    height: 540px;
+    color: #fff;
+    background-image: url(https://images-beta.tossdown.com/site/a4195117-d4ae-45d4-9088-21162bacdfb1.webp);
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-position-y: 150px;
+    background-position-x: 30px;
+}
+
+.biointer {
+    color: #fff;
+    padding-top: 80px;
+    display: flex;
+    border-bottom: #222222 1px solid;
+}
+
+.logoside {
+    width: 283px;
+    margin-left: 60px;
+    padding-bottom: 24px;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(255, 255, 255, 0.7);
+}
+.logoside>img {
+    padding-bottom: 24px;
+}
+
+.sitelinks {
+    padding-bottom: 24px;
+    margin-top: 15px;
+    margin-left: 80px;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.contactsus {
+    margin-left: 60px;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#grey {
+    color: #fff;
+}
+
+.media {
+    vertical-align: middle;
+    margin-left: 160px;
+}
+
+.media > i {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.footerone {
+    background-color: transparent;
+    height: 30px;
+    width: 290px;
+    position: absolute;
+    top: 6810px;
+    margin-left: 70px;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.footertwo {
+    background-color: transparent;
+    height: 30px;
+    width: 290px;
+    position: absolute;
+    top: 6810px;
+    margin-left: 970px;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.7);
+}
